@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import { Context } from "./context/Context.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <Context.Provider value={{}}>
+  <Context.Provider basename="/gemini-clone/" value={{}}>
     <App />
   </Context.Provider>
 );
